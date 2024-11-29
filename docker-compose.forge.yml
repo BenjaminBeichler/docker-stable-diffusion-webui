@@ -4,7 +4,6 @@ services:
       file: docker-compose.yml
       service: stable-diffusion-webui
     container_name: stable-diffusion-webui-forge
-    image: ghcr.io/jim60105/stable-diffusion-webui:forge
     command:
       # https://github.com/lllyasviel/stable-diffusion-webui-forge/blob/main/modules/cmd_args.py
       #
