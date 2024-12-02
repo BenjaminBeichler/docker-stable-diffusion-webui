@@ -30,7 +30,7 @@ RUN --mount=type=cache,id=apt-$TARGETARCH$TARGETVARIANT,sharing=locked,target=/v
     # https://pillow.readthedocs.io/en/stable/installation/building-from-source.html
     libjpeg62-turbo-dev libwebp-dev zlib1g-dev \
     libgl1 libglib2.0-0 libgoogle-perftools-dev \
-    git git-lfs libglfw3-dev libgles2-mesa-dev pkg-config libcairo2 build-essential
+    git git-lfs libglfw3-dev libgles2-mesa-dev pkg-config libcairo2 build-essential aria2
 
 ########################################
 # Build stage
